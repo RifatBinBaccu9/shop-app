@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
           <div className={` hidden lg:block`}>
             <div>
-              <ul className="flex items-center space-x-[30px] font-jost font-normal text-base">
+              <ul className="flex items-center space-x-[30px]  font-normal text-base">
                 <li>
                   <Link href="/" className={`header_title ${isActive("/")}`}>
                     Home

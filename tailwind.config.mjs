@@ -8,7 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        jost: ['"Jost"', "serif"],
+        jost: ["var(--font-jost)"],
+        nunito: ["Nunito Sans", "sans-serif"],
       },
       colors: {
         primary: "#131118",
@@ -16,7 +17,8 @@ export default {
         secondary: "#A4A1AA0D",
         bgButton: "#174A9B",
         bgBHover: "#123A7A",
-        bulu: "#174A9B"
+        bulu: "#174A9B",
+        bgGrea: "#273142",
       },
     },
   },

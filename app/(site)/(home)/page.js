@@ -8,7 +8,7 @@ import Services from "./component/services";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Hero />
       <ProductCategories />
       <BestSeller />
